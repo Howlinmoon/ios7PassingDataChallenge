@@ -21,6 +21,7 @@
 		96FB19F41ACDA351001F6D7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FB19D61ACDA351001F6D7F /* UIKit.framework */; };
 		96FB19FC1ACDA351001F6D7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96FB19FA1ACDA351001F6D7F /* InfoPlist.strings */; };
 		96FB19FE1ACDA351001F6D7F /* Passing_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB19FD1ACDA351001F6D7F /* Passing_Data_Challenge_SolutionTests.m */; };
+		96FB1A091ACDA41E001F6D7F /* PDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FB1A081ACDA41E001F6D7F /* PDDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		96FB19F91ACDA351001F6D7F /* Passing Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passing Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		96FB19FB1ACDA351001F6D7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96FB19FD1ACDA351001F6D7F /* Passing_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		96FB1A071ACDA41E001F6D7F /* PDDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDDetailViewController.h; sourceTree = "<group>"; };
+		96FB1A081ACDA41E001F6D7F /* PDDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				96FB19E41ACDA351001F6D7F /* Main.storyboard */,
 				96FB19E71ACDA351001F6D7F /* PDViewController.h */,
 				96FB19E81ACDA351001F6D7F /* PDViewController.m */,
+				96FB1A081ACDA41E001F6D7F /* PDDetailViewController.m */,
+				96FB1A071ACDA41E001F6D7F /* PDDetailViewController.h */,
 				96FB19EA1ACDA351001F6D7F /* Images.xcassets */,
 				96FB19D91ACDA351001F6D7F /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96FB19E31ACDA351001F6D7F /* PDAppDelegate.m in Sources */,
+				96FB1A091ACDA41E001F6D7F /* PDDetailViewController.m in Sources */,
 				96FB19E91ACDA351001F6D7F /* PDViewController.m in Sources */,
 				96FB19DF1ACDA351001F6D7F /* main.m in Sources */,
 			);
